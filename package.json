@@ -1,0 +1,41 @@
+{
+  "name": "AppTuVung",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.0.12",
+    "pg": "^6.1.2",
+    "react": "15.4.2",
+    "react-native": "0.42.0",
+    "react-native-atoz-listview": "0.0.7",
+    "react-native-audio": "^3.2.1",
+    "react-native-audioplayer": "^0.2.0",
+    "react-native-card-view": "0.0.3",
+    "react-native-drawer": "^2.3.0",
+    "react-native-router-flux": "^3.38.0",
+    "react-native-search-box": "0.0.3",
+    "react-native-swiper": "^1.5.4",
+    "react-native-vector-icons": "^4.0.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "xpress": "^2.4.6"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "assets"
+    ]
+  }
+}
